@@ -1,1 +1,2 @@
-My name is Wendy
+Git is a distributed version control system.
+Git is free software.
