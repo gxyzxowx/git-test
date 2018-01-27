@@ -1,0 +1,44 @@
+b($color)
+  background: $color
+bi()   // 背景图片
+  background:
+    linear-gradient(135deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
+    linear-gradient(225deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px
+  background-color:#708090
+  background-size: 64px 128px
+blg()   // 按钮背景渐变色
+  background-image:
+    linear-gradient(
+      rgba(153, 153, 153, 0.1),
+      rgba(0, 0, 0, 0.4)
+    )
+.logo>.logo_img
+  margin-top:-2px
+  width: 2rem
+  height: 2rem
+  display: inline-block
+  img
+    box-shadow:
+      0 0 0 3px rgba(0, 0, 0, .25),
+      0 0 0 6px rgba(0, 0, 0, .15)
+    border-radius: 50%
+    overflow: hidden
+    width: 1.5rem
+    height: 1.5rem
+
+
+/* 点我记录 出现在首页和查询页（没查询到数据时）*/
+.charge-it
+  width:5rem
+  height: 5rem
+  margin: .2rem auto
+  border:.01rem rgba(153, 153, 153, 0.15) solid
+  border-radius:50%
+  blg()
+  box-shadow: -.1rem .3rem .2rem #555
+  text-align:center
+  line-height: 2
+  .text
+    font-weight:700
+    color:#efeff4
+    text-shadow: -.1rem .1rem .1rem rgba(0, 0, 0, .5)
